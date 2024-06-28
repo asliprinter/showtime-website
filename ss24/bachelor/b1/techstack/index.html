@@ -14,7 +14,7 @@
 
 
         
-     <nav class="background master">
+     <nav class="background bachelor">
          <a href="https://asliprinter.github.io/showtime-website/" class="animate-trigger"><strong>IMI<span class="light">×</span><span class="animate">ST</span></strong> <span class="light">
 
 
@@ -159,12 +159,6 @@
      
         
         
-     
-        
-        
-     
-        
-        
             
         
      
@@ -224,15 +218,6 @@
         
         
             
-        
-     
-        
-        
-     
-        
-        
-     
-        
         
      
         
@@ -369,20 +354,18 @@
         <a href="/showtime-website/ws23/bachelor/b1-peek/">&lt;</a>
     <a href="/showtime-website/ss24/"></a>
         <a href="/showtime-website/ws23/bachelor/b1-peek/">&gt;</a>
-    
-<a href="/showtime-website/ss24/bachelor/b0-template-minimal/">&lt;</a>
-M0&nbsp;&nbsp;</li>
+    &nbsp;&nbsp;B1&nbsp;&nbsp;</li>
 
 
         </ul>
      </nav>
 
 
-    <div class="background master">
+    <div class="background bachelor">
         <header class="project-header">
             <h1>
-                <span class="type">M0 Master</span>
-                Master Project Template
+                <span class="type">B1 Bachelor</span>
+                3D Infinite Zoom
                 <span class="underscore-spacer"> 
 
                     
@@ -394,34 +377,40 @@ M0&nbsp;&nbsp;</li>
                     <h4>Team</h4>
                     <ul>
                         
-                            <li>Member 1</li>
+                            <li>Aaron</li>
                         
-                            <li>Member 2</li>
+                            <li>Andy</li>
+                        
+                            <li>Asli</li>
+                        
+                            <li>Tizian</li>
+                        
+                            <li>Tom</li>
                         
                     </ul>
                 
                 
                     <h4>Supervision</h4>
-                    Supervisor
+                    Prof. Dr. Tobias Lenz
                 
             </section>
         </header>
     </div>
-    <div class="project-menu desktop-menu background master">
+    <div class="project-menu desktop-menu background bachelor">
         <ul>
-            <li class="active"><a href="/showtime-website/ss24/master/m0-template/">Overview</a></li>
+            <li ><a href="/showtime-website/ss24/bachelor/b1/">Overview</a></li>
             
-            <li ><a href="/showtime-website/ss24/master/m0-template/process/">Process</a></li>
+            <li ><a href="/showtime-website/ss24/bachelor/b1/process/">Process</a></li>
             
-            <li ><a href="/showtime-website/ss24/master/m0-template/features/">Features</a></li>
+            <li ><a href="/showtime-website/ss24/bachelor/b1/features/">Tech Stack</a></li>
             
-            <li ><a href="/showtime-website/ss24/master/m0-template/techstack/">Tech Stack</a></li>
+            <li class="active"><a href="/showtime-website/ss24/bachelor/b1/techstack/">Tech Stack</a></li>
                    
         </ul>
     </div>  
-    <div class="project-menu mobile-menu background master">
+    <div class="project-menu mobile-menu background bachelor">
         <ul>
-            <li class="active"><a href="/showtime-website/ss24/master/m0-template/">Overview</a></li>
+            <li ><a href="/showtime-website/ss24/bachelor/b1/">Overview</a></li>
             
         </ul>
         <input type="checkbox" id="project-menu-button">
@@ -431,55 +420,65 @@ M0&nbsp;&nbsp;</li>
         <div class="dropdown-menu">
             <ul>
                 
-                <li ><a href="/showtime-website/ss24/master/m0-template/process/">Process</a></li>
+                <li ><a href="/showtime-website/ss24/bachelor/b1/process/">Process</a></li>
                 
-                <li ><a href="/showtime-website/ss24/master/m0-template/features/">Features</a></li>
+                <li ><a href="/showtime-website/ss24/bachelor/b1/features/">Tech Stack</a></li>
                 
-                <li ><a href="/showtime-website/ss24/master/m0-template/techstack/">Tech Stack</a></li>
+                <li class="active"><a href="/showtime-website/ss24/bachelor/b1/techstack/">Tech Stack</a></li>
                 
             </ul>
         </div>
     </div>
     <main class="project">
         
-            
-            
-            
-            <p class="intro">
-                This is only a template
-            </p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis.</p>
-<section>
+        <section>
     <h3>
         
-            Our Goal
+            Tech Stack
         
     </h3>
     <div class="spacer"></div>
     <div class="content">
-        Praesent dignissim dolor vel augue pellentesque imperdiet. Proin congue tellus sed nunc porttitor, eu maximus augue cursus. Donec aliquam pharetra tempus.
+        <p>Hugo offers a couple of options to include diagrams right in the source code, see
+<a href="https://gohugo.io/content-management/diagrams/">https://gohugo.io/content-management/diagrams/</a></p>
+<p>Here&rsquo;s a mermaid example: (note the hasMermaid = true parameter in the front matter!)</p>
+<pre class="mermaid">classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+</pre>
+
+  
     </div>
 </section>
 
 <section>
     <h3>
         
-            The team
+            Future
         
     </h3>
     <div class="spacer"></div>
     <div class="content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis neque id vulputate malesuada. Quisque dignissim finibus urna sed sagittis.
     </div>
-</section>
-
-<section class="gallery">
-    <figure class="team-member">
-    <img src="/showtime-website/ss24/master/m0-template/cat.jpg" alt="Portrait of team member cat">
-    <figcaption>team member cat</figcaption>
-</figure>
-
 </section>
 
 
@@ -508,6 +507,11 @@ M0&nbsp;&nbsp;</li>
     <img src="https://asliprinter.github.io/showtime-website/img/htw-logo.png" alt="HTW Logo">
 
 </footer>
+
+            <script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({ startOnLoad: true });
+        </script>
 
     </body>
 </html>
